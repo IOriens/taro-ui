@@ -1,5 +1,5 @@
 import React from 'react'
-import { AtTimeline } from '@junjie/taro-ui'
+import { AtTimeline } from '@ioriens/taro-ui'
 import { View } from '@tarojs/components'
 import Taro from '@tarojs/taro'
 import DocsHeader from '../../components/doc-header'

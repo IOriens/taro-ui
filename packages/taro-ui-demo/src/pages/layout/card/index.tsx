@@ -1,5 +1,5 @@
 import React from 'react'
-import { AtCard, AtIcon } from '@junjie/taro-ui'
+import { AtCard, AtIcon } from '@ioriens/taro-ui'
 import { View } from '@tarojs/components'
 import Taro from '@tarojs/taro'
 import DocsHeader from '../../components/doc-header'

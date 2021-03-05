@@ -1,5 +1,5 @@
 {
-  "name": "@junjie/taro-ui",
+  "name": "@ioriens/taro-ui",
   "version": "3.0.0-alpha.11",
   "description": "UI KIT for Taro",
   "module": "dist/index.esm.js",
@@ -77,5 +77,5 @@
     "react": ">=16.13.0",
     "react-dom": ">=16.13.0"
   },
-  "gitHead": "e6f5b56a5db6b2ff0cbbed80ddf83ca639d8d293"
+  "gitHead": "5844383635566de4c58efccc138c9289b9b2e295"
 }

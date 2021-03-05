@@ -1,5 +1,5 @@
 import React from 'react'
-import { AtAccordion, AtList, AtListItem } from '@junjie/taro-ui'
+import { AtAccordion, AtList, AtListItem } from '@ioriens/taro-ui'
 import { View } from '@tarojs/components'
 import Taro from '@tarojs/taro'
 import DocsHeader from '../../components/doc-header'

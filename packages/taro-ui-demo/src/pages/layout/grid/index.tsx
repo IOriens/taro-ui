@@ -1,5 +1,5 @@
 import React from 'react'
-import { AtGrid } from '@junjie/taro-ui'
+import { AtGrid } from '@ioriens/taro-ui'
 import { AtGridItem } from 'types/grid'
 import { View } from '@tarojs/components'
 import Taro from '@tarojs/taro'

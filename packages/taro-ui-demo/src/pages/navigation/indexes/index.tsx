@@ -1,5 +1,5 @@
 import React from 'react'
-import { AtIndexes, AtSearchBar } from '@junjie/taro-ui'
+import { AtIndexes, AtSearchBar } from '@ioriens/taro-ui'
 import { View } from '@tarojs/components'
 import Taro from '@tarojs/taro'
 import mockData, { CityItem } from './mock-data'

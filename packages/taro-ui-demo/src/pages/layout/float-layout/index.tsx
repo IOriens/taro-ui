@@ -1,5 +1,5 @@
 import React from 'react'
-import { AtButton, AtFloatLayout } from '@junjie/taro-ui'
+import { AtButton, AtFloatLayout } from '@ioriens/taro-ui'
 import { View } from '@tarojs/components'
 import { CommonEvent } from '@tarojs/components/types/common'
 import Taro from '@tarojs/taro'
