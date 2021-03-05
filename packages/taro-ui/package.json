@@ -24,7 +24,7 @@
   "homepage": "https://taro-ui.aotu.io",
   "repository": {
     "type": "git",
-    "url": "git@github.com:nervjs/taro-ui.git"
+    "url": "git@github.com:IOriens/taro-ui.git"
   },
   "license": "MIT",
   "publishConfig": {
@@ -77,5 +77,5 @@
     "react": ">=16.13.0",
     "react-dom": ">=16.13.0"
   },
-  "gitHead": "86abc637342d631e48f21206775aca01f446ee2a"
+  "gitHead": "e6f5b56a5db6b2ff0cbbed80ddf83ca639d8d293"
 }
