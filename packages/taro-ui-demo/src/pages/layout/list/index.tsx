@@ -1,5 +1,5 @@
 import React from 'react'
-import { AtList, AtListItem } from 'taro-ui'
+import { AtList, AtListItem } from '@junjie.xyz/taro-ui'
 import { View } from '@tarojs/components'
 import { CommonEvent } from '@tarojs/components/types/common'
 import Taro from '@tarojs/taro'

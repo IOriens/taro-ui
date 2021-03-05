@@ -1,5 +1,5 @@
 import React from 'react'
-import { AtList, AtListItem } from 'taro-ui'
+import { AtList, AtListItem } from '@junjie.xyz/taro-ui'
 import {
   Image,
   Slider,
@@ -146,7 +146,7 @@ export default class SwiperPage extends React.Component<{}, SwiperPageState> {
                       </View>
                       <View className='slider-list__item-body'>
                         <Slider
-                          activeColor='#6190e8'
+                          activeColor='#cb5547'
                           showValue
                           step={1}
                           min={500}
@@ -162,7 +162,7 @@ export default class SwiperPage extends React.Component<{}, SwiperPageState> {
                       </View>
                       <View className='slider-list__item-body'>
                         <Slider
-                          activeColor='#6190e8'
+                          activeColor='#cb5547'
                           showValue
                           step={1}
                           min={2000}

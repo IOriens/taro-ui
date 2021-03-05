@@ -1,6 +1,6 @@
 import classNames from 'classnames'
 import React from 'react'
-import { AtBadge, AtButton, AtDrawer, AtIcon } from 'taro-ui'
+import { AtBadge, AtButton, AtDrawer, AtIcon } from '@junjie.xyz/taro-ui'
 import { View } from '@tarojs/components'
 import Taro from '@tarojs/taro'
 import DocsHeader from '../../components/doc-header'

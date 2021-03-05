@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "taro-ui-demo",
+  "name": "@junjie.xyz/taro-ui-demo",
   "version": "3.0.0-alpha.10",
   "description": "Taro UI demo",
   "author": "O2Team <aotu.io>",
@@ -48,7 +48,7 @@
     "@tarojs/taro": "~3.0.2",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
-    "taro-ui": "file:../taro-ui"
+    "@junjie.xyz/taro-ui": "file:../taro-ui"
   },
   "devDependencies": {
     "@babel/core": "^7.8.0",

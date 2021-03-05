@@ -1,5 +1,5 @@
 import React from 'react'
-import { AtDivider, AtIcon } from 'taro-ui'
+import { AtDivider, AtIcon } from '@junjie.xyz/taro-ui'
 import { View } from '@tarojs/components'
 import Taro from '@tarojs/taro'
 import DocsHeader from '../../components/doc-header'

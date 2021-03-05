@@ -1,5 +1,5 @@
 import React from 'react'
-import { AtRange } from 'taro-ui'
+import { AtRange } from '@junjie.xyz/taro-ui'
 import { View } from '@tarojs/components'
 import Taro from '@tarojs/taro'
 import DocsHeader from '../../components/doc-header'
@@ -60,7 +60,7 @@ export default class Index extends React.Component<{}, IndexState> {
                 数值范围：{this.state.value2[0]}~{this.state.value2[1]}
               </View>
               <AtRange
-                sliderStyle={{ backgroundColor: '#6190E8' }}
+                sliderStyle={{ backgroundColor: '#cb5547' }}
                 value={this.state.value2}
                 onChange={this.handleChange.bind(this, 'value2')}
               />

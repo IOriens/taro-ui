@@ -1,5 +1,5 @@
 import React from 'react'
-import { AtInputNumber } from 'taro-ui'
+import { AtInputNumber } from '@junjie.xyz/taro-ui'
 import { View } from '@tarojs/components'
 import { CommonEvent } from '@tarojs/components/types/common'
 import Taro from '@tarojs/taro'

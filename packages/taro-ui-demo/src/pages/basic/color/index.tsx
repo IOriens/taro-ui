@@ -37,7 +37,7 @@ export default class BasicColor extends React.Component<{}, BasicColorState> {
             },
             {
               name: '品牌蓝',
-              hex: '#6190E8'
+              hex: '#cb5547'
             },
             {
               name: '深蓝色',

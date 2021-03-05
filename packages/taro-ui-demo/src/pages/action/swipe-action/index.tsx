@@ -1,5 +1,10 @@
 import React from 'react'
-import { AtButton, AtList, AtListItem, AtSwipeAction } from 'taro-ui'
+import {
+  AtButton,
+  AtList,
+  AtListItem,
+  AtSwipeAction
+} from '@junjie.xyz/taro-ui'
 import { SwipeActionOption } from 'types/swipe-action'
 import { View } from '@tarojs/components'
 import Taro from '@tarojs/taro'

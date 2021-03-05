@@ -1,5 +1,5 @@
 import React from 'react'
-import { AtButton, AtCurtain } from 'taro-ui'
+import { AtButton, AtCurtain } from '@junjie.xyz/taro-ui'
 import { Image, View } from '@tarojs/components'
 import Taro from '@tarojs/taro'
 import curtainPng from '../../../assets/images/curtain.png'

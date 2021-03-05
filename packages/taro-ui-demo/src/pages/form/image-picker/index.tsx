@@ -1,5 +1,5 @@
 import React from 'react'
-import { AtImagePicker } from 'taro-ui'
+import { AtImagePicker } from '@junjie.xyz/taro-ui'
 import { View } from '@tarojs/components'
 import Taro from '@tarojs/taro'
 import DocsHeader from '../../components/doc-header'

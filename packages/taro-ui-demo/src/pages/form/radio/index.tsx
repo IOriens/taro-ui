@@ -1,5 +1,5 @@
 import React from 'react'
-import { AtRadio } from 'taro-ui'
+import { AtRadio } from '@junjie.xyz/taro-ui'
 import { RadioOption } from 'types/radio'
 import { View } from '@tarojs/components'
 import Taro from '@tarojs/taro'

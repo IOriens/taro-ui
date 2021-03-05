@@ -1,5 +1,5 @@
 import React from 'react'
-import { AtActionSheet, AtActionSheetItem, AtButton } from 'taro-ui'
+import { AtActionSheet, AtActionSheetItem, AtButton } from '@junjie.xyz/taro-ui'
 import { Text, View } from '@tarojs/components'
 import Taro from '@tarojs/taro'
 import DocsHeader from '../../components/doc-header'

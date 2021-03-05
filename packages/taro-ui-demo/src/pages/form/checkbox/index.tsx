@@ -1,5 +1,5 @@
 import React from 'react'
-import { AtCheckbox } from 'taro-ui'
+import { AtCheckbox } from '@junjie.xyz/taro-ui'
 import { CheckboxOption } from 'types/checkbox'
 import { View } from '@tarojs/components'
 import Taro from '@tarojs/taro'
