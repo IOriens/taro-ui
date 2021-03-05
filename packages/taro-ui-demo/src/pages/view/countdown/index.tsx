@@ -1,5 +1,5 @@
 import React from 'react'
-import { AtCountdown } from '@junjie.xyz/taro-ui'
+import { AtCountdown } from '@junjie/taro-ui'
 import { View } from '@tarojs/components'
 import Taro from '@tarojs/taro'
 import DocsHeader from '../../components/doc-header'

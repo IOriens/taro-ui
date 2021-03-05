@@ -1,5 +1,5 @@
 import React from 'react'
-import { AtRange } from '@junjie.xyz/taro-ui'
+import { AtRange } from '@junjie/taro-ui'
 import { View } from '@tarojs/components'
 import Taro from '@tarojs/taro'
 import DocsHeader from '../../components/doc-header'

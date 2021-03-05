@@ -1,5 +1,5 @@
 import React from 'react'
-import { AtSteps } from '@junjie.xyz/taro-ui'
+import { AtSteps } from '@junjie/taro-ui'
 import { Item } from 'types/steps'
 import { View } from '@tarojs/components'
 import Taro from '@tarojs/taro'

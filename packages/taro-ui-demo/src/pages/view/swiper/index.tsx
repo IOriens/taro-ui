@@ -1,5 +1,5 @@
 import React from 'react'
-import { AtList, AtListItem } from '@junjie.xyz/taro-ui'
+import { AtList, AtListItem } from '@junjie/taro-ui'
 import {
   Image,
   Slider,

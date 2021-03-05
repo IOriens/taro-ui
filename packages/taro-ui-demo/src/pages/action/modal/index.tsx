@@ -6,7 +6,7 @@ import {
   AtModalAction,
   AtModalContent,
   AtModalHeader
-} from '@junjie.xyz/taro-ui'
+} from '@junjie/taro-ui'
 import { Button, View } from '@tarojs/components'
 import Taro from '@tarojs/taro'
 import DocsHeader from '../../components/doc-header'

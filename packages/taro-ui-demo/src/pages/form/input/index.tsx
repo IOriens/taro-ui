@@ -1,5 +1,5 @@
 import React from 'react'
-import { AtForm, AtInput } from '@junjie.xyz/taro-ui'
+import { AtForm, AtInput } from '@junjie/taro-ui'
 import { Image, View } from '@tarojs/components'
 import { BaseEventOrig } from '@tarojs/components/types/common'
 // eslint-disable-next-line @typescript-eslint/ban-ts-ignore

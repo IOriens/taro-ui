@@ -1,5 +1,5 @@
 import React from 'react'
-import { AtSegmentedControl } from '@junjie.xyz/taro-ui'
+import { AtSegmentedControl } from '@junjie/taro-ui'
 import { View } from '@tarojs/components'
 import Taro from '@tarojs/taro'
 import DocsHeader from '../../components/doc-header'

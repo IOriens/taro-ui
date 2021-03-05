@@ -1,5 +1,5 @@
 import React from 'react'
-import { AtButton, AtPagination } from '@junjie.xyz/taro-ui'
+import { AtButton, AtPagination } from '@junjie/taro-ui'
 import { PageChangeData } from 'types/pagination'
 import { View } from '@tarojs/components'
 import Taro from '@tarojs/taro'
