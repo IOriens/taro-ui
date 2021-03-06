@@ -34,31 +34,31 @@ jobs:
       script:
         - yarn run build:component
       before_deploy:
-        - echo "//registry.npmjs.org/:_authToken=\${NPM_TOKEN}" >> $HOME/.npmrc 2> /dev/null
+        - echo "//npm.pkg.github.com/:_authToken=\${NPM_TOKEN}" >> $HOME/.npmrc 2> /dev/null
       deploy:
         provider: script
         skip_cleanup: true
         script: "yarn run publish"
         on:
           tags: true
-          repo: NervJS/taro-ui
-    - stage: deploy
-      if: "(branch = master) AND (NOT (type IN (pull_request)))"
-      before_install:
-        - curl -o- -L https://yarnpkg.com/install.sh | bash
-        - export PATH="$HOME/.yarn/bin:$PATH"
-      install:
-        - yarn --frozen-lockfile
-      before_script:
-        - yarn run clean
-      script:
-        - yarn run build
-      after_script:
-        - cd packages/taro-ui-docs/dist
-        - git init
-        - git add -A
-        - git commit -m "Update Document"
-        - git push --force --quiet "https://${GITHUB_TOKEN}@${GH_REF}" master:gh-pages
+          repo: IOriens/taro-ui
+    # - stage: deploy
+    #   if: "(branch = master) AND (NOT (type IN (pull_request)))"
+    #   before_install:
+    #     - curl -o- -L https://yarnpkg.com/install.sh | bash
+    #     - export PATH="$HOME/.yarn/bin:$PATH"
+    #   install:
+    #     - yarn --frozen-lockfile
+    #   before_script:
+    #     - yarn run clean
+    #   script:
+    #     - yarn run build
+    #   after_script:
+    #     - cd packages/taro-ui-docs/dist
+    #     - git init
+    #     - git add -A
+    #     - git commit -m "Update Document"
+    #     - git push --force --quiet "https://${GITHUB_TOKEN}@${GH_REF}" master:gh-pages
 env:
   global:
-    - GH_REF=github.com/NervJS/taro-ui.git
+    - GH_REF=github.com/IOriens/taro-ui.git
